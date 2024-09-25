@@ -1,0 +1,36 @@
+import { StyleSheet, Text, View } from "react-native";
+
+export default function App() {
+  return (
+    <View style={{ marginTop: 200, alignItems: "center" }}>
+      <Text style={styles.texto1}>Texto 1</Text>
+      <Text style={styles.texto2}>Texto 2</Text>
+      <Text style={styles.texto3}>Texto 3</Text>
+      <Text style={styles.texto4}>Texto 4</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  texto1: {
+    fontSize: 32,
+    color: "green",
+    fontWeight: "900",
+  },
+  texto2: {
+    fontSize: 24,
+    color: "navy",
+    fontWeight: "700",
+  },
+  texto3: {
+    fontSize: 16,
+    color: "red",
+    fontWeight: "600",
+  },
+  texto4: {
+    fontSize: 12,
+    color: "cyan",
+    fontWeight: "500",
+  },
+});
+
